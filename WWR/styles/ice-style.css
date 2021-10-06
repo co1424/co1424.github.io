@@ -1,0 +1,56 @@
+h1 {
+    text-align: center;
+    color: white;
+    margin-right: 200px;
+    
+}
+h1:hover{
+    color: black;
+}
+header {
+    color: white;
+    text-align: center;
+    margin-left: 350px; margin-right: 200px;
+    padding: 5px;
+    font-family: 'Times New Roman OS';
+}
+body {
+    background-color: lightpink;    
+    text-align: center;
+}
+.basic {
+    color: white;
+    text-align: center;
+    margin-right: 150px;
+    padding: 5px;
+    font-family: 'Times New Roman OS';
+}
+.name {
+    color: white;
+    text-align: center; 
+    margin-right: 200px;
+    padding: 5px;
+    font-family: 'Times New Roman OS';
+}
+.principles {
+    color: black;
+    text-align: left;
+    margin-left: 500px; margin-right: 200px;
+    padding: 5px;
+    font-family: 'Times New Roman OS';
+}
+.quote {
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    margin-left: 200px; margin-right: 200px;
+    padding: 5px;
+    font-family: 'Times New Roman OS';
+}
+.footer-quote {
+    color: black;
+    text-align: center;
+    margin-left: 200px; margin-right: 200px;
+    padding: 5px;
+    font-family: 'Times New Roman OS';
+}
