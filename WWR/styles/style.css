@@ -6,7 +6,7 @@ body {
     padding: 0;
 }
 .home-title {
-    color: black;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2em;
     margin-top: 10px;
@@ -25,7 +25,7 @@ h4 {
 }
 .logo {
     width: 80px;
-    padding-top: 10px;
+    padding-top: 2px;
     align-items: left;
 }
 #logo_link {
@@ -36,17 +36,20 @@ h4 {
 nav a {
     color: black;
     text-decoration: none;
+    padding-top: 35px;
+    padding-left: 35px;
+    padding-right: 35px;
 }
 .icon {
     width: 80px;
     }
 nav a:hover {
-    background-color: blue;
+    background-color: rgb(116, 188, 212);
     color: black;
 }
 .book, .join {
     background-color: darkblue;
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
@@ -74,11 +77,11 @@ nav a:hover {
 
 }
 .msg h2 {
-    color: black;
+    color: white;
     margin: 0;
 }
 .msg p {
-    color: black;
+    color: white;
     padding: .8em;
     padding-bottom: 15px;
 }
@@ -113,7 +116,7 @@ nav {
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
-    background-color: rgb(46, 46, 236);
+    background-color: rgb(46 46 236);
 }
 #hero-msg h1 {
     text-align: center;
@@ -169,7 +172,7 @@ footer .social img {
 }
 .card-img {
     border: 10px solid #d9c2a3;
-    transition: transform .5s;
+    transition: transform .1s;
     box-shadow: 5px 5px 10px #6f7364;
 }
 .card-img:hover {
