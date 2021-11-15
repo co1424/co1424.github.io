@@ -205,6 +205,10 @@ footer .social img {
 main section img {
     box-sizing: border-box;
 }
+.FAQ-main {
+    margin-left: 100px;
+    margin-right: 100px;
+}
 /* DO NOT ADD ANYTHING ELSE BELOW THIS SECTION. IF YOU NEED TO ADD ANYTHING ELSE, DO IT ABOVE THIS NOTE. */
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
