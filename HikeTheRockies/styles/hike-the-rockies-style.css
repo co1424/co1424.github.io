@@ -41,7 +41,8 @@ header {
     height: 90x;
     padding-top: 0px;
     align-items: center;
-    margin-top: 3px;
+    margin-top: 3px; 
+    border-radius: 500%;
 }
 #logo_link {
     padding-top: 0 px;
