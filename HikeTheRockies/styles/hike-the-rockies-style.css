@@ -20,11 +20,13 @@ header {
 }
 #home-msg {
     grid-column: 2/3;
-    margin-top: 100px;
+    margin-top: 80px;
     background-color: white
 }
 #home-msg h1 {
     text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 15px;
 }
 #home-msg h4 {
     text-align: center;
@@ -37,8 +39,8 @@ header {
     margin-right: 30px;
 }
 .logo {
-    width: 90px;
-    height: 90x;
+    width: 80px;
+    height: 80px;
     padding-top: 0px;
     align-items: center;
     margin-top: 3px; 
@@ -57,9 +59,11 @@ nav {
 .topnav {
     overflow: hidden;
     background-color: lightblue;
-    margin-top: 25px;
-    
+    margin-bottom: -3px;
+    margin-top: 14px;
 }
+    
+
 .topnav a {
     float: left;
     display: block;
@@ -82,9 +86,9 @@ nav {
     float: right;
     padding: 6px;
     border: none;
-    margin-top: 8px;
+    margin-top: 12px;
     margin-right: 16px;
-    margin-bottom: 22px;
+    margin-bottom: 35px;
     font-size: 17px;
     border-color: black;
 }
@@ -96,12 +100,12 @@ nav {
 .button-box {
     text-align: center;
     border-color: #2196F3;
-    margin-top: 20px;
+    margin-top: 50px;
     grid-column: 1/2;
     
 }
 .learn, .join {
-    background-color: rgb(23, 23, 190);
+    background-color: #174F77;
     color: white;
     text-decoration: none;
     font-size: 18px;
@@ -110,7 +114,7 @@ nav {
     border-radius: 5px;
 }
 .learn:hover, .join:hover {
-    background-color: lightblue;
+    background-color: #1E82B9;
     color: black;
 }
 footer {
