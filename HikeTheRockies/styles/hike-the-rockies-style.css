@@ -160,6 +160,10 @@ nav {
     background-color: #1E82B9;
     color: black;
 }
+#rock-img {
+    width: 600px;
+        
+}
 form {
     margin: 0 auto;
     width: 500px;
