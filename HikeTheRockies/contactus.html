@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="styles/hike-the-rockies-style.css">
 </head>
 <body>
-    <div id="content">
+    <div id="content.contactus">
     <header>
     <a id="logo_link" href="index.html">
-        <img class="logo" src="images/HikeTheRockiesLogo.png" alt="Hike The Rockies Logo">
+        <img class="logo" src="images/hiketherockies-logo-clear.png" alt="Hike The Rockies Logo">
     </a>
     <nav class="topnav">
         <a href="index.html">Home</a>
@@ -20,19 +20,28 @@
         <input type="text" placeholder="Search...">
     </nav>
     </header>
-<div id="home">
-    <div id="home-box">
-        <img id="hike-path-img" src="images/hike-path.jpg" alt="Hike hike-path">
-    </div>
-    <section id="home-msg">
-        <h1 class="home-title">Welcome dear hiker!</h1>
-        <h4>Are you ready to adventure in Rexburg?</h4><br>
-        <p>We know how exciting life can be when you go to college. Are you looking for some good places to go to around Rexburg? We have several good spots for you to visit depending on your hiking level like low, mid, high. We also have found some great kid friendly hikes the whole family will enjoy! So, what are you waiting for!</p>
-        <div class="button-box">
-            <a class="learn" href="FAQs.html">Learn More</a>
-        </div>
-    </section>
-</div>
+    <main class="form">
+    <div id="feedback"></div>
+        <form action="/my-handling-form-page" method="post">
+            <ul>
+            <li>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name">
+            </li>
+            <li>
+                <label for="mail">E-mail:</label>
+                <input type="email" id="mail" name="user_email">
+            </li>
+            <li>
+                <label for="msg">Message:</label>
+                    <textarea id="msg" name="user_message"></textarea>
+            </li>
+            <li class="button">
+                <button type="submit">Send your message</button>
+            </li>
+            </ul>
+        </form>
+    </main>
 <footer>
     <h3>Hike The Rockies &copy; 2021 - Eddy Renteria</h3>
     <h3><a href="contactus.html"> Contact Us </a></h3>

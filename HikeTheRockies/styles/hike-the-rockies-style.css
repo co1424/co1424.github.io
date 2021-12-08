@@ -1,3 +1,7 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+}
 content {
     max-width: 1600px;
     margin: 0 auto;
@@ -24,7 +28,7 @@ header {
 #home-msg {
     grid-column: 2/3;
     margin-top: 80px;
-    background-color: white
+    background-color: lightblue
 }
 #home-msg h1 {
     text-align: center;
@@ -114,7 +118,6 @@ nav {
     width: 600px;
     height: 100%;
     opacity: 90%;
-    margin-left: 350px;
     margin-top: 20px;
     
 }
@@ -137,6 +140,68 @@ nav {
 .learn:hover, .join:hover {
     background-color: #1E82B9;
     color: black;
+}
+form {
+    margin: 0 auto;
+    width: 500px;
+    padding: 2em;
+    background-color: lightblue;
+    align-items: center;
+}
+#feedback {
+    background-color: lightblue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    display: none; 
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+input, textarea {
+    font: 1em sans-serif;
+    font-size: 22px;
+    width: 300px;
+    height: 110px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    margin-bottom: 25px;
+    vertical-align: top;
+}
+input[type="text" i] {
+    padding: 1px 2px;
+    width: 300px;
+    height: 30px;
+}
+input[type="email" i] {
+    padding: 1px 2px;
+    width: 300px;
+    height: 30px;
+}
+form li + li {
+    margin-top: 1em;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.button {
+    padding-left: 80px;
+}
+button {
+    margin-left: .5em;
+}
+.button-box {
+    text-align: center;
 }
 footer {
     background-color: lightblue;
