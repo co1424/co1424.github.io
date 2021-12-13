@@ -171,6 +171,9 @@ form {
     background-color: lightblue;
     align-items: center;
 }
+.whyus {
+    font-family: 'Zen Antique', serif;;
+}
 #feedback {
     background-color: lightblue;
     position: absolute;
